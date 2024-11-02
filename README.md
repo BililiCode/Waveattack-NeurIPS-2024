@@ -1,6 +1,6 @@
 # WaveAttack: Asymmetric Frequency Obfuscation-based Backdoor Attacks Against Deep Neural Networks
 
-![](images/onverview.png "Overview of our HPR model.")
+![](images/overview.png "Overview of our HPR model.")
 
 ## Introduction
 
