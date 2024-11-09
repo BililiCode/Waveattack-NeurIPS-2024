@@ -36,7 +36,7 @@ python eval.py --dataset cifar10
 
 ## Acknowledgements
 
-Part of the code is borrowed from [**Input-Aware Dynamic Backdoor Attack**](https://github.com/VinAIResearch/input-aware-backdoor-attack-release), thanks to their great work!
+Some of our codes refer to [**Input-Aware Dynamic Backdoor Attack**](https://github.com/VinAIResearch/input-aware-backdoor-attack-release), thanks to their great work!
 
 ## Citation
 
