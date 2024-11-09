@@ -1,10 +1,5 @@
 # WaveAttack: Asymmetric Frequency Obfuscation-based Backdoor Attacks Against Deep Neural Networks
 
-![Python 3.6](https://img.shields.io/badge/python-3.6-DodgerBlue.svg?style=plastic)
-![Pytorch 1.10](https://img.shields.io/badge/pytorch-1.2.0-DodgerBlue.svg?style=plastic)
-![CUDA 10.0](https://img.shields.io/badge/cuda-10.0-DodgerBlue.svg?style=plastic)
-![License CC BY-NC](https://img.shields.io/badge/license-CC_BY--NC-DodgerBlue.svg?style=plastic)
-
 ![](images/overview.png "Overview of our HPR model.")
 
 ## Introduction
@@ -14,8 +9,44 @@ This repository includes the PyTorch implementation for our paper
 
 [2024.11.01] Coming soon.
 
+## Installation
 
+This project is built upon the following environment:
+* Python 3.7
+* PyTorch 1.7.1
+* pytorch_wavelets
 
-#### How to employ the attack method?
+The easiest way to install ``pytorch_wavelets`` is to clone the [**repo**](https://github.com/fbcotter/pytorch_wavelets) and pip install
+it:
 
+    $ git clone https://github.com/fbcotter/pytorch_wavelets
+    $ cd pytorch_wavelets
+    $ pip install .
+
+## Train
+Train a model on the CIFAR-10 dataset by
+```
+python train.py --dataset cifar10 
+```
+
+## Evaluate
+```
+python eval.py --dataset cifar10
+```
+
+## Acknowledgements
+
+Part of the code is borrowed from [**Input-Aware Dynamic Backdoor Attack**](https://github.com/VinAIResearch/input-aware-backdoor-attack-release), thanks to their great work!
+
+## Citation
+
+If you find our work insightful or useful, please consider citing:
+```
+@article{WaveAttack,
+title = {WaveAttack: Asymmetric Frequency Obfuscation-based Backdoor Attacks Against Deep Neural Networks},
+journal = {Advances in Neural Information Processing Systems},
+author = {
+    Xia, Jun and Yue, Zhihao and Zhou, Yingbo and Ling, Zhiwei and Shi, Yiyu and Wei, Xian and Chen, Mingsong}
+}
+```****
 
